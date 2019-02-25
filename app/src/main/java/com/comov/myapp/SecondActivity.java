@@ -39,15 +39,12 @@ public class SecondActivity extends AppCompatActivity {
 
     public void saveFile2Internal(View v) {
         // FILE PATH
-        File file = new File(getFilesDir(), FILE_DIR_NAME);
-        if(!file.exists()){
-            file.mkdir();
-        }
+        File file = new File(getFilesDir(), FILE_NAME);
+
         // Creating and writing file internal
         String content = "Asignatura COMOV 2019";
         try {
-            File gpxfile = new File(file, FILE_NAME);
-            FileWriter writer = new FileWriter(gpxfile);
+            FileWriter writer = new FileWriter(file);
             writer.append(content);
             writer.flush();
             writer.close();
