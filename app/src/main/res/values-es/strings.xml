@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="second">Segunda Pantall</string>
+    <string name="primera">Primera Pantalla</string>
+    <string name="btnChange">Cambiar!</string>
+    <string name="btnInternal">Guardar Interno</string>
+    <string name="btnExternal">Guardar Externo</string>
+    <string name="btnShared">Pref Compartidas</string>
+    <string name="btnReadShared">LShared</string>
+    <string name="btnRInternal">LInterno</string>
+    <string name="btnRExternal">LExterno</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="second">Second Screen</string>
+    <string name="primera">First Screen</string>
+    <string name="btnChange">Change!</string>
+    <string name="btnInternal">Save Internal</string>
+    <string name="btnExternal">Save External</string>
+    <string name="btnShared">Shared Prefs</string>
+    <string name="btnReadShared">RShared</string>
+    <string name="btnRInternal">RInternal</string>
+    <string name="btnRExternal">RExternal</string>
+</resources>
