@@ -9,4 +9,12 @@
     <string name="btnReadShared">RShared</string>
     <string name="btnRInternal">RInternal</string>
     <string name="btnRExternal">RExternal</string>
+    <string name="channel_name">COMOV CHANNEL</string>
+    <string name="channel_description">COMOV notification channel</string>
+    <string name="channel_id">COMOV</string>
+    <string name="schedule">JobSchedule</string>
+    <string name="btnPic">Pic</string>
+    <string name="btnVid">Vid</string>
+    <string name="btnStopService">Stop Service</string>
+    <string name="btnStartService">Start Service</string>
 </resources>

@@ -10,4 +10,12 @@
     <string name="btnReadShared">LShared</string>
     <string name="btnRInternal">LInterno</string>
     <string name="btnRExternal">LExterno</string>
+    <string name="channel_name">CANAL COMOV</string>
+    <string name="channel_description">Canal de notificaciones de COMOV</string>
+    <string name="channel_id">COMOV</string>
+    <string name="schedule">JobSchedule</string>
+    <string name="btnPic">Foto</string>
+    <string name="btnVid">Video</string>
+    <string name="btnStopService">Parar Servicio</string>
+    <string name="btnStartService">Iniciar Servicio</string>
 </resources>

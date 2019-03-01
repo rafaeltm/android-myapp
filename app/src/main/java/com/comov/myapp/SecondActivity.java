@@ -1,9 +1,12 @@
 package com.comov.myapp;
 
 
+import android.app.Notification;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Environment;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -24,12 +27,13 @@ public class SecondActivity extends AppCompatActivity {
     public static String FILE_NAME = "Internal.txt";
     public static String FILE_NAME_PUB = "Publico.txt";
     public static String DIR_PUBLIC = "Publico";
+    public static NotificationManagerCompat notmanager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-
+        notmanager =  NotificationManagerCompat.from(this);
         Bundle extras = getIntent().getExtras();
         if (!extras.isEmpty()) {
             TextView txt2Screen = findViewById(R.id.textSecondScreen);
@@ -127,7 +131,7 @@ public class SecondActivity extends AppCompatActivity {
     public String readSharedPrefs(String key) {
         SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         String value = sharedPref.getString(key, "Not found");
-
+        notmanager.notify(0, createBasicNotification("Shared Prefs", "Has pulsado shared prefs", NotificationCompat.PRIORITY_DEFAULT));
         return value;
     }
 
@@ -150,4 +154,15 @@ public class SecondActivity extends AppCompatActivity {
         return false;
     }
 
+    private Notification createBasicNotification(String title, String content, int priority) {
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, getString(R.string.channel_id))
+                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setContentTitle(title)
+                .setContentText(content)
+                .setStyle(new NotificationCompat.BigTextStyle().bigText(content))
+                .setPriority(priority)
+                .setAutoCancel(true);
+
+        return builder.build();
+    }
 }
