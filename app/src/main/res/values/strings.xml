@@ -17,4 +17,9 @@
     <string name="btnVid">Vid</string>
     <string name="btnStopService">Stop Service</string>
     <string name="btnStartService">Start Service</string>
+    <string name="btnAddress">Locate!</string>
+    <string name="enableGPS">GPS update</string>
+    <string name="btnMap">Map!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btnLocation">Go Location</string>
 </resources>
