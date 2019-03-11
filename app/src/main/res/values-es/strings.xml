@@ -18,4 +18,9 @@
     <string name="btnVid">Video</string>
     <string name="btnStopService">Parar Servicio</string>
     <string name="btnStartService">Iniciar Servicio</string>
+    <string name="btnAddress">Localizar!</string>
+    <string name="enableGPS">Actualización GPS</string>
+    <string name="btnMap">Mapa!</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="btnLocation">Ir a Localización</string>
 </resources>
