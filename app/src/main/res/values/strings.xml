@@ -22,4 +22,8 @@
     <string name="btnMap">Map!</string>
     <string name="title_activity_maps">Map</string>
     <string name="btnLocation">Go Location</string>
+    <string name="btnAPI2">API TEST</string>
+    <string name="btnAPI1">Go API</string>
+    <string name="btnAPI3">One post</string>
+    <string name="btnAPI4">New Post</string>
 </resources>
