@@ -23,4 +23,8 @@
     <string name="btnMap">Mapa!</string>
     <string name="title_activity_maps">Mapa</string>
     <string name="btnLocation">Ir a Localización</string>
+    <string name="btnAPI2">API TEST</string>
+    <string name="btnAPI1">Ir a API</string>
+    <string name="btnAPI3">Un post</string>
+    <string name="btnAPI4">Nuevo Post</string>
 </resources>

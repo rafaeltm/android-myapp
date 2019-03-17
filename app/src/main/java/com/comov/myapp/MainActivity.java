@@ -79,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openREST(View v) {
+        Intent intent = new Intent(MainActivity.this, RestActivity.class);
+        startActivity(intent);
+    }
+
     private void checkPermissionsStorage() {
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {

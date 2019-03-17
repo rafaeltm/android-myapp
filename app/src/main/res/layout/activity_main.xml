@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="138dp"
-        android:layout_height="255dp"
+        android:layout_height="79dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/primera"
@@ -103,19 +103,31 @@
         android:text="@string/btnStartService"
         app:layout_constraintBottom_toTopOf="@+id/btnChange"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp"
         android:onClick="openLocation"
         android:text="@string/btnLocation"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="openREST"
+        android:text="@string/btnAPI1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
