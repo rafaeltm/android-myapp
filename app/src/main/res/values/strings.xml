@@ -26,4 +26,7 @@
     <string name="btnAPI1">Go API</string>
     <string name="btnAPI3">One post</string>
     <string name="btnAPI4">New Post</string>
+    <string name="btnTable">Go table</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnRemove">Remove</string>
 </resources>

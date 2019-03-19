@@ -27,4 +27,7 @@
     <string name="btnAPI1">Ir a API</string>
     <string name="btnAPI3">Un post</string>
     <string name="btnAPI4">Nuevo Post</string>
+    <string name="btnTable">Ir a tabla</string>
+    <string name="btnAdd">Agregar</string>
+    <string name="btnRemove">Eliminar</string>
 </resources>

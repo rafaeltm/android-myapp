@@ -22,7 +22,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RestActivity"></activity>
+        <activity android:name=".TableActivity" android:parentActivityName=".MainActivity" ></activity>
+        <activity android:name=".RestActivity" android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LocationActivity"
             android:parentActivityName=".MainActivity" />
